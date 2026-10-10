@@ -1,0 +1,5 @@
+<resources>
+    <color name="accent">#FF7A18</color>
+    <color name="glass">#CCFFFFFF</color>
+    <color name="dim">#22000000</color>
+</resources>

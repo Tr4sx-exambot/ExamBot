@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.teahack.exambot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:4:5-77
+11-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:4:22-75
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:5:5-76
+12-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+13-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:6:5-88
+13-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:6:22-86
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:7:5-66
+14-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:8:5-78
+15-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:9:5-76
+16-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:9:22-74
+17
+18    <application
+18-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:11:5-51:19
+19        android:allowBackup="false"
+19-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:12:9-36
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:label="ExamBot"
+22-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:13:9-32
+23        android:theme="@android:style/Theme.Material.NoActionBar"
+23-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:14:9-66
+24        android:usesCleartextTraffic="true" >
+24-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:15:9-44
+25        <activity
+25-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:17:9-24:20
+26            android:name="com.teahack.exambot.MainActivity"
+26-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:18:13-41
+27            android:exported="true" >
+27-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:19:13-36
+28            <intent-filter>
+28-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:20:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:21:17-68
+29-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:22:17-76
+31-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:26:9-29:74
+35            android:name="com.teahack.exambot.ScreenCaptureActivity"
+35-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:27:13-50
+36            android:exported="false"
+36-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:28:13-37
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+37-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:29:13-72
+38
+39        <service
+39-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:31:9-38:19
+40            android:name="com.teahack.exambot.OverlayService"
+40-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:32:13-43
+41            android:exported="false"
+41-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:33:13-37
+42            android:foregroundServiceType="specialUse" >
+42-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:34:13-55
+43            <property
+43-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:35:13-37:47
+44                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+44-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:36:17-76
+45                android:value="exam_overlay" />
+45-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:37:17-45
+46        </service>
+47        <service
+47-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:40:9-50:19
+48            android:name="com.teahack.exambot.ExamAccessibilityService"
+48-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:41:13-53
+49            android:exported="true"
+49-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:42:13-36
+50            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+50-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:43:13-79
+51            <intent-filter>
+51-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:44:13-46:29
+52                <action android:name="android.accessibilityservice.AccessibilityService" />
+52-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:45:17-91
+52-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:45:25-89
+53            </intent-filter>
+54
+55            <meta-data
+55-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:47:13-49:64
+56                android:name="android.accessibilityservice"
+56-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:48:17-60
+57                android:resource="@xml/accessibility_service" />
+57-->/storage/emulated/0/ExamBot/app/src/main/AndroidManifest.xml:49:17-62
+58        </service>
+59    </application>
+60
+61</manifest>

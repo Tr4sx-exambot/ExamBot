@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.teahack.exambot.app-merged_res-4:/drawable_glass_bg.xml.flat",
+        "source": "com.teahack.exambot.app-main-6:/drawable/glass_bg.xml"
+    },
+    {
+        "merged": "com.teahack.exambot.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.teahack.exambot.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.teahack.exambot.app-merged_res-4:/drawable_glass_dim.xml.flat",
+        "source": "com.teahack.exambot.app-main-6:/drawable/glass_dim.xml"
+    },
+    {
+        "merged": "com.teahack.exambot.app-merged_res-4:/layout_menu_overlay.xml.flat",
+        "source": "com.teahack.exambot.app-main-6:/layout/menu_overlay.xml"
+    },
+    {
+        "merged": "com.teahack.exambot.app-merged_res-4:/xml_accessibility_service.xml.flat",
+        "source": "com.teahack.exambot.app-main-6:/xml/accessibility_service.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF7A18</color>
+    <color name="dim">#22000000</color>
+    <color name="glass">#CCFFFFFF</color>
+    <string name="acc_desc">Membantu membaca layar untuk fitur aksesibilitas.</string>
+    <string name="app_name">ExamBot</string>
+    <style name="MenuItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/glass_bg</item>
+    </style>
+    <style name="MenuText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.teahack.exambot.app-merged_res-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/storage/emulated/0/ExamBot/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,354",
+                        "endLines": "7,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "349,494"
+                    },
+                    "to": {
+                        "startLines": "7,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "310,648",
+                        "endLines": "13,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "643,788"
+                    }
+                },
+                {
+                    "source": "/storage/emulated/0/ExamBot/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "1,3,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "16,99,57",
+                        "endColumns": "40,39,41",
+                        "endOffsets": "52,134,94"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,96,136",
+                        "endColumns": "40,39,41",
+                        "endOffsets": "91,131,173"
+                    }
+                },
+                {
+                    "source": "/storage/emulated/0/ExamBot/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "61,16",
+                        "endColumns": "86,44",
+                        "endOffsets": "143,56"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "178,265",
+                        "endColumns": "86,44",
+                        "endOffsets": "260,305"
+                    }
+                }
+            ]
+        }
+    ]
+}

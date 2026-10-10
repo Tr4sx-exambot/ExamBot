@@ -1,0 +1,7 @@
+com.teahack.exambot.app-pngs-0 /storage/emulated/0/ExamBot/app/build/generated/res/pngs/debug
+com.teahack.exambot.app-resValues-1 /storage/emulated/0/ExamBot/app/build/generated/res/resValues/debug
+com.teahack.exambot.app-packageDebugResources-2 /storage/emulated/0/ExamBot/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.teahack.exambot.app-packageDebugResources-3 /storage/emulated/0/ExamBot/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.teahack.exambot.app-merged_res-4 /storage/emulated/0/ExamBot/app/build/intermediates/merged_res/debug
+com.teahack.exambot.app-debug-5 /storage/emulated/0/ExamBot/app/src/debug/res
+com.teahack.exambot.app-main-6 /storage/emulated/0/ExamBot/app/src/main/res

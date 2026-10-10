@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color dim
+color glass
+drawable glass_bg
+drawable glass_dim
+id btnAcc
+id btnCap
+id btnStart
+id btnStop
+id optAnti
+id optAuto
+id optHide
+id optStop
+layout activity_main
+layout menu_overlay
+string acc_desc
+string app_name
+style MenuItem
+style MenuText
+xml accessibility_service

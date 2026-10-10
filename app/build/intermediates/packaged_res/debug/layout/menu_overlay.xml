@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/glass_bg"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="EXAMBOT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout android:id="@+id/optHide" style="@style/MenuItem">
+        <TextView android:text="(1)  Hilangkan bot Steve" style="@style/MenuText"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/optAuto" style="@style/MenuItem">
+        <TextView android:text="(2)  Mode kerjakan otomatis" style="@style/MenuText"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/optStop" style="@style/MenuItem">
+        <TextView android:text="(3)  Mode berhenti otomatis" style="@style/MenuText"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/optAnti" style="@style/MenuItem">
+        <TextView android:text="(4)  Mode anti-detect" style="@style/MenuText"/>
+    </LinearLayout>
+</LinearLayout>
